@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusConnect - Profile</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="home-container">
+
+    <!-- Header -->
+
+    <header class="top-bar">
+
+        <div class="logo">
+
+            <h1>Profile</h1>
+
+            <p>Welcome, Pranali 👋</p>
+
+            <span>Manage your account</span>
+
+        </div>
+
+        <div class="top-icons">
+
+            <i class="fa-solid fa-gear"></i>
+
+        </div>
+
+    </header>
+
+    <!-- Profile Photo -->
+
+    <div class="profile-photo">
+
+    <img id="profileImage"
+         src="https://via.placeholder.com/150"
+         alt="Profile Photo">
+
+</div>
+
+<input type="file"
+       id="photoInput"
+       accept="image/*">
+
+<br><br>
+
+<button id="uploadBtn">Choose Photo</button>
+
+    <!-- Student Information -->
+
+    <div class="profile-details">
+
+        <div class="note-card">
+
+            <div class="note-icon">
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+            <div>
+
+                <h3>Name</h3>
+
+                <p id="nameText">Pranali Dhumankhede</p>
+
+            </div>
+
+        </div>
+
+        <div class="note-card">
+
+            <div class="note-icon">
+
+                <i class="fa-solid fa-graduation-cap"></i>
+
+            </div>
+
+            <div>
+
+                <h3>Course</h3>
+
+                <p id="courseText">Master of Computer Applications (MCA)</p>
+
+            </div>
+
+        </div>
+
+        <div class="note-card">
+
+            <div class="note-icon">
+
+                <i class="fa-solid fa-building-columns"></i>
+
+            </div>
+
+            <div>
+
+                <h3>College</h3>
+
+                <p id="collegeText">Suryodaya College of Engineering & Technology</p>
+
+            </div>
+
+        </div>
+
+        <div class="note-card">
+
+            <div class="note-icon">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </div>
+
+            <div>
+
+                <h3>Email</h3>
+
+                <p id="emailText">student@email.com</p>
+
+            </div>
+
+        </div>
+
+        <div class="note-card">
+
+            <div class="note-icon">
+
+                <i class="fa-solid fa-phone"></i>
+
+            </div>
+
+            <div>
+
+                <h3>Phone</h3>
+
+                <p id="phoneText">+91 XXXXXXXXXX</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Buttons -->
+
+    <button class="settings-btn" id="editBtn">Edit Profile</button>
+
+    <br><br>
+
+<button class="logout-btn" id="logoutBtn">Logout</button>
+
+    <!-- Bottom Navigation -->
+
+    <nav class="bottom-nav">
+
+        <a href="home.html">
+
+            <i class="fa-solid fa-house"></i>
+
+            <span>Home</span>
+
+        </a>
+
+        <a href="notes.html">
+
+            <i class="fa-solid fa-book"></i>
+
+            <span>Notes</span>
+
+        </a>
+
+        <a href="events.html">
+
+            <i class="fa-solid fa-calendar-days"></i>
+
+            <span>Events</span>
+
+        </a>
+
+        <a href="profile.html" class="active">
+
+            <i class="fa-solid fa-user"></i>
+
+            <span>Profile</span>
+
+        </a>
+
+    </nav>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
